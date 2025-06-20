@@ -1,0 +1,10 @@
+aiohttp
+nest_asyncio
+python-dotenv
+colorama
+graphviz
+IPython
+beautifulsoup4
+tiktoken
+numpy
+fpdf

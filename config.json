@@ -1,0 +1,168 @@
+{
+    "steps": [
+        {
+            "blocks": [
+                {
+                    "prompt": "Générer une question à choix multiple sur la gestion de portefeuille, avec trois choix de réponses.",
+                    "model": "gpt-4o-mini",
+                    "max_tokens": 150,
+                    "temperature": 0.7,
+                    "save_output": {
+                        "format": "txt",
+                        "filename": "question_1.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "blocks": [
+                {
+                    "prompt": "En se basant sur la question générée précédemment : [ajoutez ici la sortie de question_1.txt], générer une nouvelle question à choix multiple sur la gestion de portefeuille.",
+                    "model": "gpt-4o-mini",
+                    "max_tokens": 150,
+                    "temperature": 0.7,
+                    "inputs": [[0, 0]],
+                    "save_output": {
+                        "format": "txt",
+                        "filename": "question_2.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "blocks": [
+                {
+                    "prompt": "En se basant sur la question générée précédemment : [ajoutez ici la sortie de question_2.txt], générer une nouvelle question à choix multiple sur la gestion de portefeuille.",
+                    "model": "gpt-4o-mini",
+                    "max_tokens": 150,
+                    "temperature": 0.7,
+                    "inputs": [[1, 0]],
+                    "save_output": {
+                        "format": "txt",
+                        "filename": "question_3.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "blocks": [
+                {
+                    "prompt": "En se basant sur la question générée précédemment : [ajoutez ici la sortie de question_3.txt], générer une nouvelle question à choix multiple sur la gestion de portefeuille.",
+                    "model": "gpt-4o-mini",
+                    "max_tokens": 150,
+                    "temperature": 0.7,
+                    "inputs": [[2, 0]],
+                    "save_output": {
+                        "format": "txt",
+                        "filename": "question_4.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "blocks": [
+                {
+                    "prompt": "En se basant sur la question générée précédemment : [ajoutez ici la sortie de question_4.txt], générer une nouvelle question à choix multiple sur la gestion de portefeuille.",
+                    "model": "gpt-4o-mini",
+                    "max_tokens": 150,
+                    "temperature": 0.7,
+                    "inputs": [[3, 0]],
+                    "save_output": {
+                        "format": "txt",
+                        "filename": "question_5.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "blocks": [
+                {
+                    "prompt": "En se basant sur la question générée précédemment : [ajoutez ici la sortie de question_5.txt], générer une nouvelle question à choix multiple sur la gestion de portefeuille.",
+                    "model": "gpt-4o-mini",
+                    "max_tokens": 150,
+                    "temperature": 0.7,
+                    "inputs": [[4, 0]],
+                    "save_output": {
+                        "format": "txt",
+                        "filename": "question_6.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "blocks": [
+                {
+                    "prompt": "En se basant sur la question générée précédemment : [ajoutez ici la sortie de question_6.txt], générer une nouvelle question à choix multiple sur la gestion de portefeuille.",
+                    "model": "gpt-4o-mini",
+                    "max_tokens": 150,
+                    "temperature": 0.7,
+                    "inputs": [[5, 0]],
+                    "save_output": {
+                        "format": "txt",
+                        "filename": "question_7.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "blocks": [
+                {
+                    "prompt": "En se basant sur la question générée précédemment : [ajoutez ici la sortie de question_7.txt], générer une nouvelle question à choix multiple sur la gestion de portefeuille.",
+                    "model": "gpt-4o-mini",
+                    "max_tokens": 150,
+                    "temperature": 0.7,
+                    "inputs": [[6, 0]],
+                    "save_output": {
+                        "format": "txt",
+                        "filename": "question_8.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "blocks": [
+                {
+                    "prompt": "En se basant sur la question générée précédemment : [ajoutez ici la sortie de question_8.txt], générer une nouvelle question à choix multiple sur la gestion de portefeuille.",
+                    "model": "gpt-4o-mini",
+                    "max_tokens": 150,
+                    "temperature": 0.7,
+                    "inputs": [[7, 0]],
+                    "save_output": {
+                        "format": "txt",
+                        "filename": "question_9.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "blocks": [
+                {
+                    "prompt": "En se basant sur la question générée précédemment : [ajoutez ici la sortie de question_9.txt], générer une nouvelle question à choix multiple sur la gestion de portefeuille.",
+                    "model": "gpt-4o-mini",
+                    "max_tokens": 150,
+                    "temperature": 0.7,
+                    "inputs": [[8, 0]],
+                    "save_output": {
+                        "format": "txt",
+                        "filename": "question_10.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "blocks": [
+                {
+                    "prompt": "Compiler les questions générées précédemment : [ajoutez ici les sorties des fichiers de questions]. Formater en un rapport d'examen à choix multiple sur la gestion de portefeuille et sauvegarder en PDF.",
+                    "model": "gpt-4o-mini",
+                    "max_tokens": 2000,
+                    "temperature": 0.7,
+                    "inputs": [[0, 0], [1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0], [7, 0], [8, 0], [9, 0]],
+                    "save_output": {
+                        "format": "pdf",
+                        "filename": "examen_gestion_portefeuille.pdf"
+                    }
+                }
+            ]
+        }
+    ]
+}
