@@ -1,9 +1,41 @@
 # LLM Flow Framework
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python Version](https://img.shields.io/badge/python-3.7%2B-blue.svg)](https://www.python.org/downloads/)
-[![GitHub Issues](https://img.shields.io/github/issues/simonpierreboucher/llm-generate-function)](https://github.com/simonpierreboucher/llm-generate-function/issues)
-[![GitHub Forks](https://img.shields.io/github/forks/simonpierreboucher/llm-generate-function)](https://github.com/simonpierreboucher/llm-generate-function/network)
-[![GitHub Stars](https://img.shields.io/github/stars/simonpierreboucher/llm-generate-function)](https://github.com/simonpierreboucher/llm-generate-function/stargazers)
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![GitHub Issues](https://img.shields.io/github/issues/simonpierreboucher02/LLMFLOW-main)](https://github.com/simonpierreboucher02/LLMFLOW-main/issues)
+[![GitHub Forks](https://img.shields.io/github/forks/simonpierreboucher02/LLMFLOW-main)](https://github.com/simonpierreboucher02/LLMFLOW-main/network)
+[![GitHub Stars](https://img.shields.io/github/stars/simonpierreboucher02/LLMFLOW-main)](https://github.com/simonpierreboucher02/LLMFLOW-main/stargazers)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/simonpierreboucher02/LLMFLOW-main)](https://github.com/simonpierreboucher02/LLMFLOW-main/commits/main)
+[![GitHub Repo Size](https://img.shields.io/github/repo-size/simonpierreboucher02/LLMFLOW-main)](https://github.com/simonpierreboucher02/LLMFLOW-main)
+[![GitHub Language](https://img.shields.io/github/languages/top/simonpierreboucher02/LLMFLOW-main)](https://github.com/simonpierreboucher02/LLMFLOW-main)
+[![GitHub Contributors](https://img.shields.io/github/contributors/simonpierreboucher02/LLMFLOW-main)](https://github.com/simonpierreboucher02/LLMFLOW-main/graphs/contributors)
+
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4%20%7C%20GPT--3.5-orange?logo=openai)](https://openai.com/)
+[![Anthropic](https://img.shields.io/badge/Anthropic-Claude-blue?logo=anthropic)](https://anthropic.com/)
+[![Mistral](https://img.shields.io/badge/Mistral-Mistral%20AI-purple?logo=mistral)](https://mistral.ai/)
+[![AsyncIO](https://img.shields.io/badge/AsyncIO-Asynchronous%20Processing-green?logo=python)](https://docs.python.org/3/library/asyncio.html)
+[![Graphviz](https://img.shields.io/badge/Graphviz-Flow%20Visualization-red?logo=graphviz)](https://graphviz.org/)
+
+[![Made with Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg?logo=python)](https://www.python.org/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+<div align="center">
+  <img src="https://img.shields.io/badge/LLM%20Flow%20Framework-🚀%20AI%20Workflow%20Orchestration-brightgreen?style=for-the-badge&logo=python" alt="LLM Flow Framework">
+</div>
+
+## 📊 Repository Metrics
+
+| Metric | Value |
+|--------|-------|
+| **Lines of Code** | ~500+ |
+| **Python Files** | 12 |
+| **Dependencies** | 10 |
+| **Supported LLM APIs** | 3 (OpenAI, Anthropic, Mistral) |
+| **Output Formats** | TXT, PDF |
+| **Async Processing** | ✅ |
+| **Flow Visualization** | ✅ |
+| **Semantic Search** | ✅ |
 
 ## Table of Contents
 
@@ -29,6 +61,15 @@ The **LLM Flow Framework** is a modular and extensible Python-based system desig
 
 Whether you're building a multiple-choice question generator, a content summarizer, or any other LLM-driven application, the LLM Flow Framework provides the flexibility and scalability to meet your needs.
 
+### 🎯 Key Benefits
+
+- **⚡ Asynchronous Processing**: High-performance, non-blocking API calls
+- **🔗 Multi-API Support**: Seamless integration with leading LLM providers
+- **🌐 External Data Integration**: Load data from web sources, APIs, and local files
+- **🔍 Semantic Search**: Enhanced prompt relevance and response quality
+- **📊 Flow Visualization**: Visual workflow representation with Graphviz
+- **⚙️ JSON Configuration**: Easy workflow definition and customization
+
 ## Features
 
 - **Asynchronous Processing**: Leverages `asyncio` and `aiohttp` for efficient, non-blocking API calls.
@@ -44,25 +85,25 @@ Whether you're building a multiple-choice question generator, a content summariz
 
 - **Language**: Python 3.8+
 - **Libraries**:
-  - `aiohttp`
-  - `asyncio`
-  - `nest_asyncio`
-  - `python-dotenv`
-  - `colorama`
-  - `graphviz`
-  - `IPython`
-  - `beautifulsoup4`
-  - `tiktoken`
-  - `numpy`
-  - `fpdf`
+  - `aiohttp` - Asynchronous HTTP client/server framework
+  - `asyncio` - Asynchronous I/O, event loop, coroutines and tasks
+  - `nest_asyncio` - Nested event loop support
+  - `python-dotenv` - Environment variable management
+  - `colorama` - Cross-platform colored terminal text
+  - `graphviz` - Graph visualization software
+  - `IPython` - Enhanced interactive Python shell
+  - `beautifulsoup4` - Web scraping library
+  - `tiktoken` - Fast BPE tokenizer for OpenAI models
+  - `numpy` - Numerical computing library
+  - `fpdf` - PDF generation library
 
 ## Installation
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/simonpierreboucher/LLMFLOW.git
-cd llm-flow-framework
+git clone https://github.com/simonpierreboucher02/LLMFLOW-main.git
+cd LLMFLOW-main
 ```
 
 ### 2. Create a Virtual Environment and Activate It
@@ -218,7 +259,7 @@ python run.py
 ## Project Structure
 
 ```
-llm-flow-framework/
+LLMFLOW-main/
 ├── run.py
 ├── config.json
 ├── requirements.txt
@@ -284,7 +325,7 @@ This example demonstrates how to use the LLM Flow Framework to generate a series
 
 ## Extending the Framework
 
-The LLM Flow Framework is designed to be highly extensible. Here’s how you can customize and extend its capabilities:
+The LLM Flow Framework is designed to be highly extensible. Here's how you can customize and extend its capabilities:
 
 ### Adding New External Data Sources
 
@@ -381,8 +422,8 @@ Contributions are welcome! Follow these steps to contribute to the LLM Flow Fram
 2. **Clone Your Fork**
 
    ```bash
-   git clone https://github.com/your-username/llm-flow-framework.git
-   cd llm-flow-framework
+   git clone https://github.com/your-username/LLMFLOW-main.git
+   cd LLMFLOW-main
    ```
 
 3. **Create a New Branch**
@@ -423,4 +464,11 @@ This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LIC
 - [Anthropic](https://www.anthropic.com/) for their contributions to AI safety and research.
 - [Mistral](https://mistral.ai/) for their innovative language model solutions.
 - Contributors of the Python libraries used in this project.
+
+---
+
+<div align="center">
+  <p>Made with ❤️ by <a href="https://github.com/simonpierreboucher02">Simon Pierre Boucher</a></p>
+  <p>⭐ Star this repository if you found it helpful!</p>
+</div>
 
